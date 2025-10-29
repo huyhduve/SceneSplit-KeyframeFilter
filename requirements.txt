@@ -1,0 +1,12 @@
+faiss_cpu==1.12.0
+numpy==2.3.4
+opencv_python==4.12.0.88
+opencv_python==4.11.0.86
+opencv_python_headless==4.12.0.88
+Pillow==12.0.0
+skimage==0.0
+torch==2.0.1+cu117
+torch==2.7.1+cu118
+tqdm==4.66.1
+tqdm==4.67.1
+transnetv2_pytorch==1.0.5
