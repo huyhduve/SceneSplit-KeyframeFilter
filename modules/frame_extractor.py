@@ -131,7 +131,7 @@ def get_video_and_timestamps(video_list, video_dir, timestamp_dir):
 
 if __name__ == "__main__":
     VID_PATH = r"D:\Python\L22_a\K08"
-    TIMESTAMP_PATH = r"D:\Python\L22_a\scenes\K08"
+    TIMESTAMP_PATH = r"D:\Python\L22_a\scenes\K09"
     OUTPUT_DIR = "D:\Python\L22_a\K08"
     
     # Get all videos recursively
