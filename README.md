@@ -28,4 +28,5 @@ It’s designed for:
 - 💡 **Notebook-friendly** — visualize every step interactively  
 - 💾 **Timestamp export** — saves `<start_frame> <end_frame>` for each scene  
 --- 
-
+
+

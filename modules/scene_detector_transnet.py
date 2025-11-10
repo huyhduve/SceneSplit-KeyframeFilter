@@ -5,7 +5,6 @@ warnings.filterwarnings("ignore")
 from transnetv2_pytorch import TransNetV2
 
 
-
 class SceneDetectorTransNet:
     def __init__(self, device='auto'):
         self.device = device
@@ -27,8 +26,11 @@ class SceneDetectorTransNet:
 if __name__ == "__main__":
     detector = SceneDetectorTransNet(device='cuda')
     video_file = r"D:\Python\EXTRACTING-FILTER-FRAMES\examples\video1.mp4"
+    output_file = r"D:\Python\EXTRACTING-FILTER-FRAMES\outputs\video1.txt"
     scenes = detector.detect_scenes(video_file)
-    # print(scenes[0])
-    for scene in scenes:
-        print(scene["start_frame"], " - ", scene["start_frame"])
+    
+    with open(output_file, "w") as f:
+        for scene in scenes:
+            f.write( f'{scene["start_frame"]} {scene["end_frame"]}\n')
+    
 
